@@ -1,0 +1,143 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{fontspec}    % 字体设置包
+\usepackage{xeCJK}       % 中文处理包
+\usepackage{graphicx}    % 插入图片
+\usepackage{amsmath}     % 数学公式
+\usepackage{amssymb}     % 数学符号
+\usepackage{geometry}    % 页面布局
+\usepackage{titlesec}    % 标题格式
+\usepackage{enumitem}    % 列表设置
+\usepackage{lipsum}      % 生成示例文本
+
+% 页面设置
+\geometry{margin=1.5in}  % 页边距
+
+% 字体设置
+\setmainfont{Times New Roman}          % 英文主字体
+\setCJKmainfont[BoldFont=SimHei, ItalicFont=KaiTi]{SimSun}  % 中文主字体
+\setCJKsansfont{SimHei}                % 中文无衬线字体
+\setCJKmonofont{SimSun}                % 中文等宽字体
+
+% 标题格式设置
+\titleformat{\section}{\centering\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
+
+% 标题信息
+\title{XeLaTeX 中文示例文档}
+\author{作者名称}
+\date{\today}  % 使用当前日期
+
+\begin{document}
+
+\maketitle  % 生成标题
+
+\begin{abstract}
+
+\end{abstract}
+\newpage
+\makecontent
+
+\newpage
+
+\section{引言}
+
+\section{材料与方法}
+\subsection{材料与试剂}
+
+\subsection{微生物培养基配制}
+
+\subsection{微生物培养环境}
+
+\subsection{实验方法}
+
+
+\section{结果与讨论}
+\subsection{结果}
+\subsubsection{单一材料比较数据}
+\paragraph{铁片}
+
+\paragraph{陶瓷片}
+
+\subsubsection{同种液体比较数据}
+\paragraph{无菌水}
+
+\paragraph{沁葡水}
+
+\paragraph{乌龙茶}
+
+\subsubsection{综合比较}
+
+\subsection{分析与讨论}
+\subsubsection{最佳承装液体}
+
+\subsubsection{最佳承装容器}
+
+\subsubsection{原因分析}
+
+\section{结论与创新点}
+\subsection{结论}
+综上所述，我们根据实验数据与严谨的处理、分析过程后得出如下结论：
+\begin{itemize}
+    \item 结论1
+    \item 结论2
+    \item 结论3
+\end{itemize}
+
+\subsection{创新点}
+在我们的研究中，我们实现了如下创新：
+\begin{itemize}
+    \item 创新点1
+    \item 创新点2
+    \item 创新点3
+\end{itemize}
+
+\section{问题与反思}\label{sec:problem}
+\subsection{现有问题}
+在本次研究中，出现了如下问题，可能会导致实验数据偏差从而得出错误的结论，包括但不限于：
+\begin{enumerate}
+    \item 问题1
+    \item 问题2
+\end{enumerate}
+
+\subsection{反思与改进方案}
+针对如上问题\ref{sec:problem}，我们提出了如下解决方案：
+%IMPORTANT!:这是有序列表，有编号的，每个点应当与问题一一匹配
+\begin{enumerate}
+    \item 解决方案1
+    \item 解决方案2
+\end{enumerate}
+
+\subsection{未来展望}
+针对以上问题及解决方案，我们希望未来能够进一步跟进研究，得出更多可靠、更完备的结论，包括但不限于：
+\begin{itemize}
+    \item 展望1
+    \item 展望2
+\end{itemize}
+
+\section{收获}
+%我不知道怎么写
+
+% 致谢页通常单独成页，不编号
+\clearpage
+\thispagestyle{empty} 
+\section*{致谢} % 带星号的section表示不编号
+
+本论文的顺利完成，离不开众多师长、同学和亲友的鼎力支持与帮助。在此，我们谨向他们致以最诚挚的谢意。
+
+首先，我要衷心感谢我的导师张阳老师。从论文的选题、框架设计到具体内容的修改完善，张老师都倾注了大量心血，给予了我悉心的指导和无私的帮助。张老师严谨的治学态度、深厚的学术素养和诲人不倦的师者风范，令我受益匪浅，并将激励我在未来的学习和工作中不断前进。
+
+感谢在学习期间所有为我授业解惑的老师们，他们的精彩课程为我打下了坚实的专业基础，拓宽了我的学术视野。
+
+感谢实验室的各位同门和同学们，在论文写作过程中，我们相互探讨、共同进步，你们的陪伴和支持让我在科研道路上不再孤单。特别感谢XXX同学在数据处理方面给予的宝贵帮助，以及XXX同学在论文修改过程中提出的建设性意见。
+
+感谢参与本论文评审和提出宝贵意见的各位专家学者，他们的真知灼见为论文的完善提供了重要指导。
+
+最后，我要向我的家人表示最深切的感谢。你们的理解、支持和鼓励是我能够安心完成学业和论文写作的坚强后盾。
+
+由于本人学识水平有限，论文中难免存在疏漏和不足之处，恳请各位老师和专家批评指正。
+
+\bibliographystyle{plain} % 指定参考文献样式（如plain、IEEEtran、apalike等）
+\bibliography{resource} % 引用.bib文件（无需写后缀）
+
+
+\end{document}
