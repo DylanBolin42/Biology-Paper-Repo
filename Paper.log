@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.3)  5 SEP 2025 16:12
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.3)  16 SEP 2025 15:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Bruce zhang/Desktop/生物论文/Paper"
-(c:/Users/Bruce zhang/Desktop/生物论文/Paper.tex
+**"c:/Users/Bruce zhang/Desktop/Biology-Paper-Repo/Paper"
+(c:/Users/Bruce zhang/Desktop/Biology-Paper-Repo/Paper.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (d:/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -440,21 +440,45 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [1
 
-]
+] (./Paper.toc)
+\tf@toc=\write3
+\openout3 = `Paper.toc'.
 
-[2] (./Paper.aux)
+
+
+[2]
+
+[3]
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8] (./Paper.bbl)
+
+[9
+
+] (./Paper.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/08/05>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 7856 strings out of 473832
- 199874 string characters out of 5733159
- 712086 words of memory out of 5000000
- 30823 multiletter control sequences out of 15000+600000
- 566935 words of font info for 104 fonts, out of 8000000 for 9000
+ 7938 strings out of 473832
+ 203582 string characters out of 5733159
+ 725143 words of memory out of 5000000
+ 30896 multiletter control sequences out of 15000+600000
+ 566959 words of font info for 107 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 79i,6n,93p,291b,253s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,10n,93p,354b,253s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Paper.pdf (2 pages).
+Output written on Paper.pdf (9 pages).
