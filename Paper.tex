@@ -1,6 +1,6 @@
-\documentclass[12pt,a4paper]{article}
-\usepackage{fontspec}    % 字体设置包
-\usepackage{xeCJK}       % 中文处理包
+\documentclass[12pt,a4paper]{ctexart}
+\usepackage{ctex}
+\usepackage{fontspec}    % 字体设置包  
 \usepackage{graphicx}    % 插入图片
 \usepackage{amsmath}     % 数学公式
 \usepackage{amssymb}     % 数学符号
@@ -8,23 +8,20 @@
 \usepackage{titlesec}    % 标题格式
 \usepackage{enumitem}    % 列表设置
 \usepackage{lipsum}      % 生成示例文本
+\usepackage{unicode-math}
 
 % 页面设置
 \geometry{margin=1.5in}  % 页边距
 
-% 字体设置
-\setmainfont{Times New Roman}          % 英文主字体
-\setCJKmainfont[BoldFont=SimHei, ItalicFont=KaiTi]{SimSun}  % 中文主字体
-\setCJKsansfont{SimHei}                % 中文无衬线字体
-\setCJKmonofont{SimSun}                % 中文等宽字体
+
 
 % 标题格式设置
-\titleformat{\section}{\centering\Large\bfseries}{\thesection}{1em}{}
-\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
+%\titleformat{\section}{\centering\Large\bfseries}{\thesection}{1em}{}
+%\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
 
 % 标题信息
-\title{XeLaTeX 中文示例文档}
-\author{作者名称}
+\title{探究不同材质杯子在不同液体残留下的最佳清洗频率}
+\author{董柏霖，张展搏，孙敏涵}
 \date{\today}  % 使用当前日期
 
 \begin{document}
@@ -35,8 +32,7 @@
 
 \end{abstract}
 \newpage
-\makecontent
-
+\tableofcontents
 \newpage
 
 \section{引言}
@@ -49,8 +45,33 @@
 \subsection{微生物培养环境}
 
 \subsection{实验方法}
+\subsection{数据处理方法}
+由于种种原因，实验获得的数据不能直接作为分析的对象，因此，对数据进行相关预处理是十分必要的。
+\subsubsection{数据清洗}
+在我们获取的数据中，包含许多异常数据与缺失值，我们主要采用添加偏置的方法修正一组异常项；同时使用函数拟合的方式填补缺失值。
+\paragraph{偏置项}
+\textbf{引入原因:}由于本实验分批次完成（1-2天一组，3-5天一组），故每一组的初始条件（初始菌落数）不同，对于3-5天这组，我们会通过对其添加偏置项来修正它的初始菌落数目，从而得出较为合理的数据。
 
+即对于某一组菌落数据${x}={x_1,x_2,x_3,x_4,x_5}$，经过修正后的数据则表示为：$x_{cor}=x_1,x_2,x_3+\theta,x_4+\theta,x_5+\theta $($\theta$ 为偏置项)
 
+\textbf{引入方法：}大部分偏置项的确定依赖于1-2天（即正常组）的培养情况，确保在调整后图像光滑；
+
+\paragraph{函数拟合}
+\textbf{引入原因：}由于缺少部分数据，导致我们只能通过函数拟合的方式预测可能的缺失数据。而由于缺失数据周围有正常数据，所以拟合的结果具有一定的可信度。
+
+对于铁片组数据有如下函数（x代表天数，y代表带菌量）：
+\begin{enumerate}
+    \item 铁片-无菌水：$ y = 100.43x^2 - 240.36x + 203.13$
+    \item 铁片-沁葡水：$y = 29.35 \times e^{0.96x}$，以第3天为$x=0$
+    \item 铁片-乌龙茶：$y = 352 \times e^{-0.64 \times (x-2)} $（以第2天为起点开始衰减）
+\end{enumerate}
+
+\subsubsection{数据预处理}
+为了分析的简便，我们事先对数据进行了预处理，主要是对数据进行Min-Max 归一化，将数据线性映射到$[0,1]$空间内。公式表达为：
+\begin{equation}
+    \hat{x}=\frac{x−min(X)​}{max(X)−min(X)},\hat{x} \in [0,1]
+\end{equation}
+其中，$\hat{x}$表示归一化后的数据，$X$为同种材料、同种饮料的数据集。
 \section{结果与讨论}
 \subsection{结果}
 \subsubsection{单一材料比较数据}
@@ -128,7 +149,7 @@
 
 感谢在学习期间所有为我授业解惑的老师们，他们的精彩课程为我打下了坚实的专业基础，拓宽了我的学术视野。
 
-感谢实验室的各位同门和同学们，在论文写作过程中，我们相互探讨、共同进步，你们的陪伴和支持让我在科研道路上不再孤单。特别感谢XXX同学在数据处理方面给予的宝贵帮助，以及XXX同学在论文修改过程中提出的建设性意见。
+感谢实验室的各位同门和同学们，在论文写作过程中，我们相互探讨、共同进步，你们的陪伴和支持让我在科研道路上不再孤单。
 
 感谢参与本论文评审和提出宝贵意见的各位专家学者，他们的真知灼见为论文的完善提供了重要指导。
 
