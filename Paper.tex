@@ -10,7 +10,15 @@
 \usepackage{lipsum}      % 生成示例文本
 \usepackage{unicode-math}
 \usepackage{longtable}
-
+% 基础图片插入包
+\usepackage{graphicx}
+% 子图标题与编号包（推荐，功能更全）
+\usepackage{subcaption}
+% （可选）调整图片与文字间距
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{multirow}   % 用于合并单元格
+\usepackage{multicol}   % 支持多栏布局（此处用于外层分栏）
 % 页面设置
 \geometry{margin=1.5in}  % 页边距
 
@@ -131,6 +139,36 @@
 \subsection{单一材料比较数据}
 \subsubsection{铁片}
 \paragraph{控制天数相同，而承装液体不同}
+\begin{figure}[htbp]  % htbp：浮动体位置优先级（here, top, bottom, page）
+    \centering  % 整体居中
+    % 子图1：宽度占页面的1/3，减去间距（避免溢出）
+    \begin{subfigure}[b]{0.31\textwidth}  % [b]：子图标题底部对齐；0.31\textwidth：子图宽度
+        \centering
+        % 插入图片：width=\linewidth 表示图片宽度=子图环境宽度
+        \includegraphics[width=\linewidth]{./plot/SingleMaterial/iron/铁片-水_line.png}  % 替换为你的图片路径/文件名
+        \caption{铁片-水}  % 子图1的标题
+        \label{subfig:1}     % 子图1的引用标签（用于后文交叉引用）
+    \end{subfigure}
+    \hfill  % 子图间水平填充空白（均匀分布）
+    % 子图2：与子图1宽度一致
+    \begin{subfigure}[b]{0.31\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{./plot/SingleMaterial/iron/铁片-沁葡水_line.png}
+        \caption{铁片-沁葡水}
+        \label{subfig:2}
+    \end{subfigure}
+    \hfill  % 再次填充空白
+    % 子图3：与前两个子图宽度一致
+    \begin{subfigure}[b]{0.31\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{./plot/SingleMaterial/iron/铁片-乌龙茶_line.png}
+        \caption{铁片-乌龙茶}
+        \label{subfig:3}
+    \end{subfigure}
+    % 整个三联图的总标题
+    \caption{铁片在3种溶液下的抑菌表现}
+    \label{fig:triple_horizontal}  % 整个图的引用标签
+\end{figure}
 \begin{itemize}
     \item 初期无菌水组带菌量较少，而乌龙茶、沁葡水带菌量均较高。
     \item 中期沁葡水组、乌龙茶组出现降低，水组持续升高。但由于沁葡水的异常降低，乌龙茶带菌量最大，水次之，沁葡水最小。
@@ -162,7 +200,36 @@
  
 \paragraph{陶瓷片}
 \subparagraph{控制天数相同，而承装液体不同}
- 
+\begin{figure}[htbp]  % htbp：浮动体位置优先级（here, top, bottom, page）
+    \centering  % 整体居中
+    % 子图1：宽度占页面的1/3，减去间距（避免溢出）
+    \begin{subfigure}[b]{0.31\textwidth}  % [b]：子图标题底部对齐；0.31\textwidth：子图宽度
+        \centering
+        % 插入图片：width=\linewidth 表示图片宽度=子图环境宽度
+        \includegraphics[width=\linewidth]{./plot/SingleMaterial/china/陶瓷-水_line.png}  % 替换为你的图片路径/文件名
+        \caption{陶瓷-水}  % 子图1的标题
+        \label{subfig:1}     % 子图1的引用标签（用于后文交叉引用）
+    \end{subfigure}
+    \hfill  % 子图间水平填充空白（均匀分布）
+    % 子图2：与子图1宽度一致
+    \begin{subfigure}[b]{0.31\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{./plot/SingleMaterial/china/陶瓷-沁葡水_line.png}
+        \caption{陶瓷-沁葡水}
+        \label{subfig:2}
+    \end{subfigure}
+    \hfill  % 再次填充空白
+    % 子图3：与前两个子图宽度一致
+    \begin{subfigure}[b]{0.31\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{./plot/SingleMaterial/china/陶瓷-乌龙茶_line.png}
+        \caption{陶瓷-乌龙茶}
+        \label{subfig:3}
+    \end{subfigure}
+    % 整个三联图的总标题
+    \caption{陶瓷片在3种溶液下的抑菌表现}
+    \label{fig:triple_horizontal}  % 整个图的引用标签
+\end{figure}
 % TODO: 此段没写
 
 \subparagraph{总结}
@@ -259,7 +326,7 @@
 % 致谢页通常单独成页，不编号
 \clearpage
 \thispagestyle{empty} 
-\section*{致谢} % 带星号的section表示不编号
+\section{致谢} % 带星号的section表示不编号
 
 本论文的顺利完成，离不开众多师长、同学和亲友的鼎力支持与帮助。在此，我们谨向他们致以最诚挚的谢意。
 
@@ -273,10 +340,192 @@
 
 最后，我们要向我们的家人表示最深切的感谢。你们的理解、支持和鼓励是我能够安心完成学业和论文写作的坚强后盾。
 
-由于我们学识水平有限，论文中难免存在疏漏和不足之处，恳请各位老师和专家批评指正。
+由于我们学识水平有限，论文中难免存在疏漏和不足之处，恳请各位老师和专家批评指正。\newpage
+
+\clearpage
+\thispagestyle{empty} 
+\section{附录A：相关图表}
+\subsection{天数相同，材料、溶液不同的归一化柱状图}
+\begin{figure}[H]  % [H] 表示强制在此处插入（不浮动），也可用 htbp 等浮动选项
+    \centering  % 图片居中显示
+    % width=\textwidth 让图片宽度等于页面宽度（自动适应）
+    \includegraphics[width=\textwidth]{./plot/SingleDay/bar_normalized_day1.0.png}  % 替换为你的图片路径/文件名
+    \caption{第一天}  % 图片标题
+    \label{fig:SingleDayBar1}  % 标签，用于后文引用
+\end{figure}
+\begin{figure}[H]  % [H] 表示强制在此处插入（不浮动），也可用 htbp 等浮动选项
+    \centering  % 图片居中显示
+    % width=\textwidth 让图片宽度等于页面宽度（自动适应）
+    \includegraphics[width=\textwidth]{./plot/SingleDay/bar_normalized_day2.0.png}  % 替换为你的图片路径/文件名
+    \caption{第二天}  % 图片标题
+    \label{fig:SingleDayBar2}  % 标签，用于后文引用
+\end{figure}
+
+\begin{figure}[H]  % [H] 表示强制在此处插入（不浮动），也可用 htbp 等浮动选项
+    \centering  % 图片居中显示
+    % width=\textwidth 让图片宽度等于页面宽度（自动适应）
+    \includegraphics[width=\textwidth]{./plot/SingleDay/bar_normalized_day3.0.png}  % 替换为你的图片路径/文件名
+    \caption{第三天}  % 图片标题
+    \label{fig:SingleDayBar3}  % 标签，用于后文引用
+\end{figure}
+
+\begin{figure}[H]  % [H] 表示强制在此处插入（不浮动），也可用 htbp 等浮动选项
+    \centering  % 图片居中显示
+    % width=\textwidth 让图片宽度等于页面宽度（自动适应）
+    \includegraphics[width=\textwidth]{./plot/SingleDay/bar_normalized_day4.0.png}  % 替换为你的图片路径/文件名
+    \caption{第四天}  % 图片标题
+    \label{fig:SingleDayBar4}  % 标签，用于后文引用
+\end{figure}
+
+\begin{figure}[H]  % [H] 表示强制在此处插入（不浮动），也可用 htbp 等浮动选项
+    \centering  % 图片居中显示
+    % width=\textwidth 让图片宽度等于页面宽度（自动适应）
+    \includegraphics[width=\textwidth]{./plot/SingleDay/bar_normalized_day5.0.png}  % 替换为你的图片路径/文件名
+    \caption{第五天}  % 图片标题
+    \label{fig:SingleDayBar5}  % 标签，用于后文引用
+\end{figure}
+\subsection{天数相同，材料、溶液不同的归一化热力图}
+\begin{figure}[H]  % [H] 表示强制在此处插入（不浮动），也可用 htbp 等浮动选项
+    \centering  % 图片居中显示
+    % width=\textwidth 让图片宽度等于页面宽度（自动适应）
+    \includegraphics[width=\textwidth]{./plot/SingleDay/heatmap_normalized_day1.0.png}  % 替换为你的图片路径/文件名
+    \caption{第一天}  % 图片标题
+    \label{fig:SingleDayHeat1}  % 标签，用于后文引用
+\end{figure}
+
+\begin{figure}[H]  % [H] 表示强制在此处插入（不浮动），也可用 htbp 等浮动选项
+    \centering  % 图片居中显示
+    % width=\textwidth 让图片宽度等于页面宽度（自动适应）
+    \includegraphics[width=\textwidth]{./plot/SingleDay/heatmap_normalized_day2.0.png}  % 替换为你的图片路径/文件名
+    \caption{第二天}  % 图片标题
+    \label{fig:SingleDayHeat2}  % 标签，用于后文引用
+\end{figure}
+
+\begin{figure}[H]  % [H] 表示强制在此处插入（不浮动），也可用 htbp 等浮动选项
+    \centering  % 图片居中显示
+    % width=\textwidth 让图片宽度等于页面宽度（自动适应）
+    \includegraphics[width=\textwidth]{./plot/SingleDay/heatmap_normalized_day3.0.png}  % 替换为你的图片路径/文件名
+    \caption{第三天}  % 图片标题
+    \label{fig:SingleDayHeat3}  % 标签，用于后文引用
+\end{figure}
+
+\begin{figure}[H]  % [H] 表示强制在此处插入（不浮动），也可用 htbp 等浮动选项
+    \centering  % 图片居中显示
+    % width=\textwidth 让图片宽度等于页面宽度（自动适应）
+    \includegraphics[width=\textwidth]{./plot/SingleDay/heatmap_normalized_day4.0.png}  % 替换为你的图片路径/文件名
+    \caption{第四天}  % 图片标题
+    \label{fig:SingleDayHeat4}  % 标签，用于后文引用
+\end{figure}
+
+\begin{figure}[H]  % [H] 表示强制在此处插入（不浮动），也可用 htbp 等浮动选项
+    \centering  % 图片居中显示
+    % width=\textwidth 让图片宽度等于页面宽度（自动适应）
+    \includegraphics[width=\textwidth]{./plot/SingleDay/heatmap_normalized_day5.0.png}  % 替换为你的图片路径/文件名
+    \caption{第五天}  % 图片标题
+    \label{fig:SingleDayHeat5}  % 标签，用于后文引用
+\end{figure}
+\newpage
+
+\clearpage
+\thispagestyle{empty}
+\section{附录B：相关数据及修正}
+由于此处篇幅有限，故不插入完整的数据表格，该数据来自源数据的平均值。
+\begin{longtable}{c c c c c c}
+  \caption{陶瓷材质与不同液体组合的相关数据} \\
+  \toprule
+  \textbf{液体类型} & 天数 & 实际值 & 偏置项 & 修正方式 & 最终结果 \\
+  \midrule
+  \endfirsthead  % 首页表头（跨页时显示）
+  
+  \caption*{续表：陶瓷材质与不同液体组合的相关数据} \\
+  \toprule
+  \textbf{液体类型} & 天数 & 实际值 & 偏置项 & 修正方式 & 最终结果 \\
+  \midrule
+  \endhead  % 后续页表头（跨页时显示）
+  
+  \bottomrule
+  \endlastfoot  % 末页表尾（跨页时显示）
+
+  % 第一组：陶瓷-水（用\multirow合并多行，标注液体类型）
+  \multirow{5}{*}{水} 
+    & 1 & 195      & 450    & 无       & 645      \\
+    & 2 & 151.8    & 450    & 无       & 601.8    \\
+    & 3 & 0        & 450    & 偏置     & 450      \\
+    & 4 & 845.25   & -450   & 偏置     & 395.25   \\
+    & 5 & 518.6    & -450   & 偏置     & 68.6     \\
+  \midrule
+  
+  % 第二组：陶瓷-沁葡水
+  \multirow{5}{*}{沁葡水} 
+    & 1 & 0        & 0      & 偏置     & 0        \\
+    & 2 & 2204.61  & 0      & 偏置     & 2204.61  \\
+    & 3 & 3056.33  & 0      & 偏置     & 3056.33  \\
+    & 4 & 89.29    & 4000   & 拟合     & 4089.29  \\
+    & 5 & 4742.14  & 0      & 无       & 4742.14  \\
+  \midrule
+  
+  % 第三组：陶瓷-乌龙茶
+  \multirow{5}{*}{乌龙茶} 
+    & 1 & 0        & 600    & 偏置     & 600      \\
+    & 2 & 664.15   & 600    & 偏置     & 1264.15  \\
+    & 3 & 0        & 600    & 偏置     & 600      \\
+    & 4 & 554.26   & 0      & 无       & 554.26   \\
+    & 5 & 77.57    & 0      & 无       & 77.57    \\
+
+\end{longtable}
+
+% 两个表格之间增加适当间距（可选，提升可读性）
+\vspace{1em}
+
+% -------------------------- 第二个跨页表格：铁片材质组 --------------------------
+\begin{longtable}{c c c c c c}
+  \caption{铁片材质与不同液体组合的相关数据} \\
+  \toprule
+  \textbf{液体类型} & 天数 & 实际值 & 偏置项 & 修正方式 & 最终结果 \\
+  \midrule
+  \endfirsthead  % 首页表头（跨页时显示）
+  
+  \caption*{续表：铁片材质与不同液体组合的相关数据} \\
+  \toprule
+  \textbf{液体类型} & 天数 & 实际值 & 偏置项 & 修正方式 & 最终结果 \\
+  \midrule
+  \endhead  % 后续页表头（跨页时显示）
+  
+  \bottomrule
+  \endlastfoot  % 末页表尾（跨页时显示）
+
+  % 第一组：铁片-水
+  \multirow{5}{*}{水} 
+    & 1 & 63.396   & 0      & 无       & 63.396   \\
+    & 2 & 102.66   & 0      & 无       & 102.66   \\
+    & 3 & 294.33   & 0      & 无       & 294.33   \\
+    & 4 & 无       & 665.33 & 预测     & 665.33   \\
+    & 5 & 无       & 1215.66& 预测     & 1215.66  \\
+  \midrule
+  
+  % 第二组：铁片-沁葡水
+  \multirow{5}{*}{沁葡水} 
+    & 1 & 222.48   & 0      & 无       & 222.48   \\
+    & 2 & 无       & 142.85 & 预测     & 142.85   \\
+    & 3 & 63.21    & 0      & 无       & 63.21    \\
+    & 4 & 无       & 836.39 & 预测     & 836.39   \\
+    & 5 & 2296.28  & 0      & 无       & 2296.28  \\
+  \midrule
+  
+  % 第三组：铁片-乌龙茶
+  \multirow{5}{*}{乌龙茶} 
+    & 1 & 200.987  & 0      & 无       & 200.987  \\
+    & 2 & 352      & 0      & 无       & 352      \\
+    & 3 & 无       & 186.34 & 预测     & 186.34   \\
+    & 4 & 无       & 98.82  & 预测     & 98.82    \\
+    & 5 & 31.09    & 0      & 无       & 31.09    \\
+
+\end{longtable}
+\newpage
 
 \bibliographystyle{plain} % 指定参考文献样式（如plain、IEEEtran、apalike等）
 \bibliography{resource} % 引用.bib文件（无需写后缀）
+
 
 
 \end{document}
