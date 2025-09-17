@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.12)  17 SEP 2025 15:28
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.12)  17 SEP 2025 15:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -800,52 +800,70 @@ File: ./plot/SingleMaterial/china/陶瓷-乌龙茶_line.png Graphic file (type b
 [14
 
 ]
+File: ./plot/General/bar_normalized_overall.png Graphic file (type bmp)
+<./plot/General/bar_normalized_overall.png>
+File: ./plot/General/boxplot_normalized_overall.png Graphic file (type bmp)
+<./plot/General/boxplot_normalized_overall.png>
+
+
+[15
+
+]
+File: ./plot/General/combined_normalized_line.png Graphic file (type bmp)
+<./plot/General/combined_normalized_line.png>
+File: ./plot/General/heatmap_normalized_overall.png Graphic file (type bmp)
+<./plot/General/heatmap_normalized_overall.png>
+
+
+[16]
+File: ./plot/General/scatter_normalized_overall.png Graphic file (type bmp)
+<./plot/General/scatter_normalized_overall.png>
 File: ./plot/SingleDay/bar_normalized_day1.0.png Graphic file (type bmp)
 <./plot/SingleDay/bar_normalized_day1.0.png>
 File: ./plot/SingleDay/bar_normalized_day2.0.png Graphic file (type bmp)
 <./plot/SingleDay/bar_normalized_day2.0.png>
 
 
-[15
+[17]
 
-]
+[18]
 File: ./plot/SingleDay/bar_normalized_day3.0.png Graphic file (type bmp)
 <./plot/SingleDay/bar_normalized_day3.0.png>
 File: ./plot/SingleDay/bar_normalized_day4.0.png Graphic file (type bmp)
 <./plot/SingleDay/bar_normalized_day4.0.png>
 
 
-[16]
+[19]
 File: ./plot/SingleDay/bar_normalized_day5.0.png Graphic file (type bmp)
 <./plot/SingleDay/bar_normalized_day5.0.png>
 File: ./plot/SingleDay/heatmap_normalized_day1.0.png Graphic file (type bmp)
 <./plot/SingleDay/heatmap_normalized_day1.0.png>
 
 
-[17]
+[20]
 File: ./plot/SingleDay/heatmap_normalized_day2.0.png Graphic file (type bmp)
 <./plot/SingleDay/heatmap_normalized_day2.0.png>
 
 
-[18]
+[21]
 File: ./plot/SingleDay/heatmap_normalized_day3.0.png Graphic file (type bmp)
 <./plot/SingleDay/heatmap_normalized_day3.0.png>
 File: ./plot/SingleDay/heatmap_normalized_day4.0.png Graphic file (type bmp)
 <./plot/SingleDay/heatmap_normalized_day4.0.png>
 
 
-[19]
+[22]
 File: ./plot/SingleDay/heatmap_normalized_day5.0.png Graphic file (type bmp)
 <./plot/SingleDay/heatmap_normalized_day5.0.png>
 
 
-[20] [21
+[23] [24
 
 ]
 
-[22] (./Paper.bbl)
+[25] (./Paper.bbl)
 
-[23] (./Paper.aux)
+[26] (./Paper.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/07/14>
@@ -856,12 +874,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15704 strings out of 475796
- 358656 string characters out of 5773403
+ 15755 strings out of 475796
+ 360893 string characters out of 5773403
  965473 words of memory out of 5000000
- 38424 multiletter control sequences out of 15000+600000
+ 38469 multiletter control sequences out of 15000+600000
  565998 words of font info for 107 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  93i,9n,111p,567b,581s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Paper.xdv (23 pages, 146868 bytes).
+Output written on Paper.xdv (26 pages, 157968 bytes).
