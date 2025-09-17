@@ -1,33 +1,35 @@
 \contentsline {section}{\numberline {1}引言}{3}{}%
 \contentsline {section}{\numberline {2}材料与方法}{3}{}%
 \contentsline {subsection}{\numberline {2.1}材料与试剂}{3}{}%
-\contentsline {subsection}{\numberline {2.2}微生物培养基配制}{3}{}%
-\contentsline {subsection}{\numberline {2.3}微生物培养环境}{3}{}%
-\contentsline {subsection}{\numberline {2.4}实验方法}{3}{}%
-\contentsline {subsection}{\numberline {2.5}数据处理方法}{3}{}%
-\contentsline {subsubsection}{\numberline {2.5.1}数据清洗}{3}{}%
-\contentsline {paragraph}{偏置项}{3}{}%
-\contentsline {paragraph}{函数拟合}{3}{}%
-\contentsline {subsubsection}{\numberline {2.5.2}数据预处理}{4}{}%
-\contentsline {section}{\numberline {3}结果与讨论}{4}{}%
-\contentsline {subsection}{\numberline {3.1}结果}{4}{}%
-\contentsline {subsubsection}{\numberline {3.1.1}单一材料比较数据}{4}{}%
-\contentsline {paragraph}{铁片}{4}{}%
-\contentsline {paragraph}{陶瓷片}{4}{}%
-\contentsline {subsubsection}{\numberline {3.1.2}同种液体比较数据}{4}{}%
-\contentsline {paragraph}{无菌水}{4}{}%
-\contentsline {paragraph}{沁葡水}{4}{}%
-\contentsline {paragraph}{乌龙茶}{4}{}%
-\contentsline {subsubsection}{\numberline {3.1.3}综合比较}{5}{}%
-\contentsline {subsection}{\numberline {3.2}分析与讨论}{5}{}%
-\contentsline {subsubsection}{\numberline {3.2.1}最佳承装液体}{5}{}%
-\contentsline {subsubsection}{\numberline {3.2.2}最佳承装容器}{5}{}%
-\contentsline {subsubsection}{\numberline {3.2.3}原因分析}{5}{}%
-\contentsline {section}{\numberline {4}结论与创新点}{5}{}%
-\contentsline {subsection}{\numberline {4.1}结论}{5}{}%
-\contentsline {subsection}{\numberline {4.2}创新点}{5}{}%
-\contentsline {section}{\numberline {5}问题与反思}{5}{}%
-\contentsline {subsection}{\numberline {5.1}现有问题}{5}{}%
-\contentsline {subsection}{\numberline {5.2}反思与改进方案}{6}{}%
-\contentsline {subsection}{\numberline {5.3}未来展望}{6}{}%
-\contentsline {section}{\numberline {6}收获}{7}{}%
+\contentsline {subsection}{\numberline {2.2}实验方法}{3}{}%
+\contentsline {subsection}{\numberline {2.3}数据处理方法}{4}{}%
+\contentsline {subsubsection}{\numberline {2.3.1}数据清洗}{4}{}%
+\contentsline {paragraph}{偏置项}{4}{}%
+\contentsline {paragraph}{函数拟合}{5}{}%
+\contentsline {subsubsection}{\numberline {2.3.2}数据预处理}{5}{}%
+\contentsline {section}{\numberline {3}结果与讨论}{6}{}%
+\contentsline {subsection}{\numberline {3.1}结果}{6}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}单一材料比较数据}{6}{}%
+\contentsline {paragraph}{铁片}{6}{}%
+\contentsline {subparagraph}{控制天数相同，而承装液体不同，可以得到：}{6}{}%
+\contentsline {subparagraph}{控制承装液体相同，天数不同}{6}{}%
+\contentsline {paragraph}{陶瓷片}{6}{}%
+\contentsline {subparagraph}{控制天数相同，而承装液体不同}{7}{}%
+\contentsline {subparagraph}{控制承装液体相同，天数不同}{7}{}%
+\contentsline {subsubsection}{\numberline {3.1.2}同种液体比较数据}{7}{}%
+\contentsline {paragraph}{无菌水}{7}{}%
+\contentsline {paragraph}{沁葡水}{7}{}%
+\contentsline {paragraph}{乌龙茶}{7}{}%
+\contentsline {subsubsection}{\numberline {3.1.3}综合比较}{8}{}%
+\contentsline {subsection}{\numberline {3.2}分析与讨论}{8}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}最佳承装液体}{8}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}最佳承装容器}{8}{}%
+\contentsline {subsubsection}{\numberline {3.2.3}原因分析}{8}{}%
+\contentsline {section}{\numberline {4}结论与创新点}{9}{}%
+\contentsline {subsection}{\numberline {4.1}结论}{9}{}%
+\contentsline {subsection}{\numberline {4.2}创新点}{9}{}%
+\contentsline {section}{\numberline {5}问题与反思}{9}{}%
+\contentsline {subsection}{\numberline {5.1}现有问题}{9}{}%
+\contentsline {subsection}{\numberline {5.2}反思与改进方案}{10}{}%
+\contentsline {subsection}{\numberline {5.3}未来展望}{10}{}%
+\contentsline {section}{\numberline {6}收获}{10}{}%
