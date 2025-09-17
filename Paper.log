@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.12)  17 SEP 2025 15:42
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.12)  17 SEP 2025 15:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -756,7 +756,7 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 
 
 LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <12> not available
-(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 48.
+(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 47.
 [2])
 \tf@toc=\write3
 \openout3 = `Paper.toc'.
@@ -882,4 +882,4 @@ Here is how much of TeX's memory you used:
  36 hyphenation exceptions out of 8191
  93i,9n,111p,567b,581s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Paper.xdv (26 pages, 157968 bytes).
+Output written on Paper.xdv (26 pages, 156772 bytes).

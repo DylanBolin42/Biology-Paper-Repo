@@ -13,34 +13,33 @@
 \contentsline {paragraph}{控制天数相同，而承装液体不同}{7}{}%
 \contentsline {subparagraph}{总结}{8}{}%
 \contentsline {paragraph}{控制承装液体相同，天数不同，可以得到：}{8}{}%
-\contentsline {subparagraph}{控制承装液体相同，天数不同}{8}{}%
 \contentsline {paragraph}{陶瓷片}{8}{}%
 \contentsline {subparagraph}{控制天数相同，而承装液体不同}{8}{}%
 \contentsline {subparagraph}{总结}{8}{}%
-\contentsline {subsubsection}{\numberline {3.1.2}同种液体比较数据}{9}{}%
-\contentsline {paragraph}{无菌水}{9}{}%
+\contentsline {subsubsection}{\numberline {3.1.2}同种液体比较数据}{8}{}%
+\contentsline {paragraph}{无菌水}{8}{}%
 \contentsline {paragraph}{沁葡水}{9}{}%
 \contentsline {paragraph}{乌龙茶}{9}{}%
 \contentsline {subsubsection}{\numberline {3.1.3}综合比较}{9}{}%
 \contentsline {subsection}{\numberline {3.2}分析与讨论}{9}{}%
 \contentsline {subsubsection}{\numberline {3.2.1}最佳承装液体}{9}{}%
-\contentsline {subsubsection}{\numberline {3.2.2}最佳承装容器}{10}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}最佳承装容器}{9}{}%
 \contentsline {subsubsection}{\numberline {3.2.3}原因分析}{10}{}%
 \contentsline {paragraph}{单一材料的原因分析}{10}{}%
 \contentsline {subparagraph}{无菌水对微生物生长的影响}{10}{}%
 \contentsline {subparagraph}{饮料营养成分对微生物生长的基础作用}{10}{}%
 \contentsline {subparagraph}{乌龙茶中抑菌物质对微生物生长的特殊调控}{10}{}%
 \contentsline {paragraph}{单一饮料的原因分析}{10}{}%
-\contentsline {subparagraph}{表面结构差异对微生物与营养物附着的影响}{11}{}%
-\contentsline {subparagraph}{表面光滑度对液体残留及糖分留存的影响}{11}{}%
+\contentsline {subparagraph}{表面结构差异对微生物与营养物附着的影响}{10}{}%
+\contentsline {subparagraph}{表面光滑度对液体残留及糖分留存的影响}{10}{}%
 \contentsline {subparagraph}{附着位点数量对微生物生长繁殖状态的影响}{11}{}%
 \contentsline {section}{\numberline {4}结论与创新点}{11}{}%
 \contentsline {subsection}{\numberline {4.1}结论}{11}{}%
-\contentsline {subsection}{\numberline {4.2}创新点}{12}{}%
+\contentsline {subsection}{\numberline {4.2}创新点}{11}{}%
 \contentsline {section}{\numberline {5}问题与反思}{12}{}%
 \contentsline {subsection}{\numberline {5.1}现有问题}{12}{}%
 \contentsline {subsection}{\numberline {5.2}反思与改进方案}{12}{}%
-\contentsline {subsection}{\numberline {5.3}未来展望}{13}{}%
+\contentsline {subsection}{\numberline {5.3}未来展望}{12}{}%
 \contentsline {section}{\numberline {6}收获}{13}{}%
 \contentsline {section}{\numberline {7}致谢}{14}{}%
 \contentsline {section}{\numberline {8}附录A：相关图表}{15}{}%
