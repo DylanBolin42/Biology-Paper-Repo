@@ -1,7 +1,12 @@
 \contentsline {section}{\numberline {1}引言}{4}{}%
+\contentsline {subsection}{\numberline {1.1}实验背景}{4}{}%
+\contentsline {subsection}{\numberline {1.2}实验目标}{4}{}%
 \contentsline {section}{\numberline {2}材料与方法}{4}{}%
 \contentsline {subsection}{\numberline {2.1}材料与试剂}{4}{}%
 \contentsline {subsection}{\numberline {2.2}实验方法}{5}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}样品处理与培养条件设置}{5}{}%
+\contentsline {subsubsection}{\numberline {2.2.2}微生物回收与培养}{5}{}%
+\contentsline {subsubsection}{\numberline {2.2.3}数据初步收集}{6}{}%
 \contentsline {subsection}{\numberline {2.3}数据处理方法}{6}{}%
 \contentsline {subsubsection}{\numberline {2.3.1}数据清洗}{6}{}%
 \contentsline {paragraph}{偏置项}{6}{}%
