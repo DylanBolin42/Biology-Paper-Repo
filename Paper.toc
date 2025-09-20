@@ -10,20 +10,19 @@
 \contentsline {subsection}{\numberline {2.3}数据处理方法}{6}{}%
 \contentsline {subsubsection}{\numberline {2.3.1}数据清洗}{6}{}%
 \contentsline {paragraph}{偏置项}{6}{}%
-\contentsline {paragraph}{函数拟合}{6}{}%
 \contentsline {subsubsection}{\numberline {2.3.2}数据预处理}{6}{}%
-\contentsline {section}{\numberline {3}实验结果}{7}{}%
+\contentsline {section}{\numberline {3}实验结果}{6}{}%
 \contentsline {subsection}{\numberline {3.1}放置天数以及承装液体种类对同种材料的影响}{7}{}%
 \contentsline {subsubsection}{\numberline {3.1.1}不锈钢片}{7}{}%
 \contentsline {paragraph}{控制天数相同，而承装液体不同}{7}{}%
 \contentsline {paragraph}{控制承装液体相同，天数不同，可以得到：}{7}{}%
-\contentsline {subparagraph}{总结}{8}{}%
+\contentsline {subparagraph}{总结}{7}{}%
 \contentsline {subsubsection}{\numberline {3.1.2}陶瓷片}{8}{}%
 \contentsline {subparagraph}{控制天数相同，而承装液体不同}{8}{}%
 \contentsline {paragraph}{控制承装液体相同，天数不同，可以得到：}{8}{}%
 \contentsline {subparagraph}{总结}{8}{}%
 \contentsline {paragraph}{原因分析}{8}{}%
-\contentsline {subparagraph}{无菌水对微生物生长的影响}{9}{}%
+\contentsline {subparagraph}{无菌水对微生物生长的影响}{8}{}%
 \contentsline {subparagraph}{饮料营养成分对微生物生长的基础作用}{9}{}%
 \contentsline {subparagraph}{乌龙茶中抑菌物质对微生物生长的特殊调控}{9}{}%
 \contentsline {subsection}{\numberline {3.2}不同材料，放置天数对同种饮料的影响}{9}{}%
@@ -37,7 +36,7 @@
 \contentsline {subsection}{\numberline {3.3}分析与讨论}{10}{}%
 \contentsline {subsubsection}{\numberline {3.3.1}最佳承装液体}{10}{}%
 \contentsline {paragraph}{原因分析}{10}{}%
-\contentsline {subparagraph}{带菌量角度}{11}{}%
+\contentsline {subparagraph}{带菌量角度}{10}{}%
 \contentsline {subsubsection}{\numberline {3.3.2}最佳承装容器}{11}{}%
 \contentsline {paragraph}{原因分析}{11}{}%
 \contentsline {subparagraph}{带菌量角度}{11}{}%

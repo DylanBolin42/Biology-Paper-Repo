@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.12)  20 SEP 2025 22:35
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.12)  20 SEP 2025 22:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -756,7 +756,7 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 
 
 LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <12> not available
-(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 53.
+(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 52.
 [2])
 \tf@toc=\write3
 \openout3 = `Paper.toc'.
@@ -768,8 +768,6 @@ LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <12> not available
 [4]
 
 [5]
-
-[6]
 File: ./plot/SingleMaterial/iron/铁片-水_line.png Graphic file (type bmp)
 <./plot/SingleMaterial/iron/铁片-水_line.png>
 File: ./plot/SingleMaterial/iron/铁片-沁葡水_line.png Graphic file (type bmp)
@@ -778,7 +776,7 @@ File: ./plot/SingleMaterial/iron/铁片-乌龙茶_line.png Graphic file (type bm
 <./plot/SingleMaterial/iron/铁片-乌龙茶_line.png>
 
 
-[7]
+[6]
 File: ./plot/SingleMaterial/china/陶瓷-水_line.png Graphic file (type bmp)
 <./plot/SingleMaterial/china/陶瓷-水_line.png>
 File: ./plot/SingleMaterial/china/陶瓷-沁葡水_line.png Graphic file (type bmp)
@@ -786,6 +784,8 @@ File: ./plot/SingleMaterial/china/陶瓷-沁葡水_line.png Graphic file (type b
 File: ./plot/SingleMaterial/china/陶瓷-乌龙茶_line.png Graphic file (type bmp)
 <./plot/SingleMaterial/china/陶瓷-乌龙茶_line.png>
 
+
+[7]
 
 [8]
 
@@ -876,12 +876,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15764 strings out of 475796
- 361456 string characters out of 5773403
- 965473 words of memory out of 5000000
- 38478 multiletter control sequences out of 15000+600000
+ 15823 strings out of 475796
+ 365247 string characters out of 5773403
+ 964473 words of memory out of 5000000
+ 38537 multiletter control sequences out of 15000+600000
  565998 words of font info for 107 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 93i,9n,111p,567b,581s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,9n,111p,567b,550s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Paper.xdv (26 pages, 163740 bytes).
+Output written on Paper.xdv (26 pages, 163908 bytes).
