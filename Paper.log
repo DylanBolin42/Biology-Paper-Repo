@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.3)  17 SEP 2025 17:26
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.3)  20 SEP 2025 16:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -490,8 +490,29 @@ Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
 \mult@nat@firstbox=\box111
 \colbreak@box=\box112
 \mc@col@check@num=\count344
+) (./Paper.aux
+
+LaTeX Warning: Label `subfig:1' multiply defined.
+
+
+LaTeX Warning: Label `sub@subfig:1' multiply defined.
+
+
+LaTeX Warning: Label `subfig:2' multiply defined.
+
+
+LaTeX Warning: Label `sub@subfig:2' multiply defined.
+
+
+LaTeX Warning: Label `subfig:3' multiply defined.
+
+
+LaTeX Warning: Label `sub@subfig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:triple_horizontal' multiply defined.
+
 )
-No file Paper.aux.
 \openout1 = `Paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
@@ -510,6 +531,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -718,43 +740,36 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [1
 
-]
-No file Paper.toc.
+] (./Paper.toc
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 12.00128pt on input line 3.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.40088pt on input line 3.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.00064pt on input line 3.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 11.99872pt on input line 3.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.3991pt on input line 3.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 3.
+
+
+LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <12> not available
+(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 52.
+[2])
 \tf@toc=\write3
 \openout3 = `Paper.toc'.
 
 
-
-LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <12> not available
-(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 45.
-[2]
-
-LaTeX Warning: Reference `tab:material' on page 3 undefined on input line 64.
-
-
-LaTeX Warning: Reference `tab:material' on page 3 undefined on input line 64.
-
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 79.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.40088pt on input line 79.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 79.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 79.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.3991pt on input line 79.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 79.
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 1 on input line 91.
 
 [3]
 
 [4]
 
 [5]
+
+[6]
 File: ./plot/SingleMaterial/iron/铁片-水_line.png Graphic file (type bmp)
 <./plot/SingleMaterial/iron/铁片-水_line.png>
 File: ./plot/SingleMaterial/iron/铁片-沁葡水_line.png Graphic file (type bmp)
@@ -763,7 +778,7 @@ File: ./plot/SingleMaterial/iron/铁片-乌龙茶_line.png Graphic file (type bm
 <./plot/SingleMaterial/iron/铁片-乌龙茶_line.png>
 
 
-[6]
+[7]
 File: ./plot/SingleMaterial/china/陶瓷-水_line.png Graphic file (type bmp)
 <./plot/SingleMaterial/china/陶瓷-水_line.png>
 File: ./plot/SingleMaterial/china/陶瓷-沁葡水_line.png Graphic file (type bmp)
@@ -772,30 +787,13 @@ File: ./plot/SingleMaterial/china/陶瓷-乌龙茶_line.png Graphic file (type b
 <./plot/SingleMaterial/china/陶瓷-乌龙茶_line.png>
 
 
-[7]
-
 [8]
 
-LaTeX Warning: Citation `HXSJ202002001' on page 9 undefined on input line 269.
-
-
-
 [9]
-
-LaTeX Warning: Reference `fig:GeneralLine' on page 10 undefined on input line 285.
-
-
-LaTeX Warning: Citation `JSHJ201504002' on page 10 undefined on input line 287.
-
-
 
 [10]
 
 [11]
-
-LaTeX Warning: Reference `sec:problem' on page 12 undefined on input line 316.
-
-
 
 [12]
 
@@ -861,37 +859,11 @@ File: ./plot/SingleDay/heatmap_normalized_day5.0.png Graphic file (type bmp)
 <./plot/SingleDay/heatmap_normalized_day5.0.png>
 
 
-[23]
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 2 on input line 526.
-
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 3 on input line 574.
-
-[24
+[23] [24
 
 ]
 
 [25] (./Paper.bbl)
-
-Package longtable Warning: Table widths have changed. Rerun LaTeX.
-
-
-c:/Users/Bruce zhang/Desktop/Biology-Paper-Repo/Paper.tex:582: LaTeX Error: \begin{itemize} on input line 224 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.582 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 
 [26] (./Paper.aux)
  ***********
@@ -900,23 +872,16 @@ L3 programming layer <2022/07/14>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 224 (\begingroup)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 15758 strings out of 473832
- 360490 string characters out of 5733159
+ 15764 strings out of 473832
+ 360574 string characters out of 5733159
  970654 words of memory out of 5000000
- 38602 multiletter control sequences out of 15000+600000
+ 38604 multiletter control sequences out of 15000+600000
  565998 words of font info for 107 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,9n,111p,571b,719s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,9n,111p,571b,581s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on Paper.pdf (26 pages).
