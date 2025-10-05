@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Paper.aux
+The style file: plain.bst
+Database file #1: resource.bib
+Warning--there's a number but no volume in SPKX198605015
+Warning--there's a number but no volume in GYYX199305057
+Warning--there's a number but no volume in GNCL200603020
+You've used 10 entries,
+            2118 wiz_defined-function locations,
+            571 strings with 5413 characters,
+and the built_in function-call counts, 3373 in all, are:
+= -- 319
+> -- 191
+< -- 0
++ -- 76
+- -- 66
+* -- 272
+:= -- 606
+add.period$ -- 30
+call.type$ -- 10
+change.case$ -- 64
+chr.to.int$ -- 0
+cite$ -- 13
+duplicate$ -- 101
+empty$ -- 234
+format.name$ -- 66
+if$ -- 672
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 7
+newline$ -- 53
+num.names$ -- 20
+pop$ -- 49
+preamble$ -- 1
+purify$ -- 53
+quote$ -- 0
+skip$ -- 59
+stack$ -- 0
+substring$ -- 200
+swap$ -- 7
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 40
+warning$ -- 3
+while$ -- 27
+width$ -- 12
+write$ -- 112
+(There were 3 warnings)
